@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jackson-core-2.7.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/jackson-core-2.7.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/dropbox-core-sdk-3.0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

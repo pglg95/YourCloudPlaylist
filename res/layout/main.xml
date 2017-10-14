@@ -1,0 +1,115 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent">
+
+
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="1"
+                android:text="@string/main_activity_text"
+                android:layout_weight="0.7"
+                android:minHeight="140dp"/>
+        <!--    <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+
+                    android:text="@string/log_out"
+                    android:id="@+id/log_out"
+                    android:layout_column="3"
+                    android:onClick="onLogOutButtonClick"/>-->
+
+    </TableRow>
+
+
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <Space
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:layout_column="2"/>
+
+    </TableRow>
+
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <TextView
+                android:text="@string/device_path"
+                android:layout_width="0dp"
+                android:layout_weight="0.24"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:maxLines="1"
+        />
+        <EditText
+                android:layout_width="0dp"
+                android:layout_weight="0.56"
+                android:layout_height="wrap_content"
+                android:id="@+id/device_path"
+                android:layout_column="2" android:maxLines="1" android:inputType="text"
+        />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+                android:text="@string/dropbox_path"
+                android:layout_width="0dp"
+                android:layout_weight="0.24"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:maxLines="1"/>
+        <EditText
+                android:layout_width="0dp"
+                android:layout_weight="0.56"
+                android:layout_height="wrap_content"
+                android:id="@+id/dropbox_path"
+                android:maxLines="1" android:inputType="text"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+                android:text="@string/playlist_name"
+                android:layout_width="0dp"
+                android:layout_weight="0.24"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:maxLines="1"/>
+        <EditText
+                android:layout_width="0dp"
+                android:layout_weight="0.56"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:id="@+id/playlist_name"
+                android:inputType="text"/>
+    </TableRow>
+
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <Space
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_column="3"/>
+    </TableRow>
+
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.56"
+                android:layout_height="wrap_content"
+                android:text="Generate playlist"
+                android:id="@+id/generate_button"
+                android:layout_column="2"
+                android:onClick="onGenerateButtonClick"/>
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YourCloudPlaylist</string>
+    <string name="no_data">No Data</string>
+    <string name="explorer">Explorer</string>
+    <string name="cancel">Cancel</string>
+    <string name="select">Select</string>
+    <string name="connection_error">Connection error</string>
+    <string name="refresh">Refresh</string>
+    <string name="log_in_dropbox">Log in Dropbox</string>
+    <string name="exit">Exit</string>
+    <string name="error_occured">Error occured</string>
+    <string name="try_again">Try again</string>
+    <string name="main_activity_text">Select directory where you want YourCloudPlaylist to make a playlist. Next select
+        Dropbox directory where you have music files, insert name of your new playlist and touch Generate playlist. From
+        now you can use your music files as if they were on your device.
+    </string>
+    <string name="log_out">Log out</string>
+    <string name="field_validation_error">Wrong file paths or playlist file name</string>
+    <string name="device_path">Device path:</string>
+    <string name="dropbox_path">Dropbox path:</string>
+    <string name="playlist_name">Playlist name:</string>
+    <string name="saving_file_error">Saving playlist error.\nSpecify the correct paths.</string>
+    <string name="wait">Wait...</string>
+    <string name="incorrect_playlist">Playlist can be incorrect.Please try again.</string>
+    <string name="creating_playlist">Creating playlist...</string>
+    <string name="making_link">Making public link to:</string>
+    <string name="app_key">6jmehxm3co7e4hd</string>
+</resources>
